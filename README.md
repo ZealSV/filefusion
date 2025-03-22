@@ -45,26 +45,26 @@ python3 filefusion.py --path /path/to/your/directory --include py,js --exclude t
 
 ### Required Arguments
 
---path PATH - Directory path to process
+- `--path PATH` - Directory path to process
 
 ### File Filtering
 
---include EXT1,EXT2,... - Only include files with specified extensions
---exclude EXT1,EXT2,... - Exclude files with specified extensions
---max-size SIZE - Maximum file size in KB to process
---include-binary - Include binary files (excluded by default)
+- `--include EXT1,EXT2,...` - Only include files with specified extensions
+- `--exclude EXT1,EXT2,...` - Exclude files with specified extensions
+- `--max-size SIZE` - Maximum file size in KB to process
+- `--include-binary` - Include binary files (excluded by default)
 
 ### Output Options
 
---output FILENAME - Output filename (default: combined_files.txt)
---format {text,md,html} - Output format (default: text)
---comment-style {1,2} - Comment style (1 for //, 2 for #)
+- `--output FILENAME` - Output filename (default: combined_files.txt)
+- `--format {text,md,html}` - Output format (default: text)
+- `--comment-style {1,2}` - Comment style (1 for //, 2 for #)
 
 ### Processing Options
 
---recursive - Scan subdirectories recursively (default: True)
---no-recursive - Do not scan subdirectories
---workers N - Number of worker threads (default: CPU count \* 4, max 32)
+- `--recursive` - Scan subdirectories recursively (default: True)
+- `--no-recursive` - Do not scan subdirectories
+- `--workers N` - Number of worker threads (default: CPU count \* 4, max 32)
 
 ## Use Cases
 
