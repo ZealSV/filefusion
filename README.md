@@ -26,19 +26,34 @@ cd filefusion
 
 # Install required dependencies
 pip install colorama tqdm
+
+# Install the package (optional)
+pip install -e .
 ```
 
 ## Quick Start
 
+### Direct execution (if not installed as a package)
+python3 filefusion.py --path /path/to/your/directory
+
+### If installed as a package
+filefusion --path /path/to/your/directory
+
 ```bash
 # Basic usage
 python3 filefusion.py --path /path/to/your/directory
+or
+filefusion --path /path/to/your/directory
 
 # Generate HTML report with all files including metadata
 python3 filefusion.py --path /path/to/your/directory --format html --output code_report.html
+or
+filefusion --path /path/to/your/directory --format html --output code_report.html
 
 # Extract only Python and JavaScript files, excluding tests
 python3 filefusion.py --path /path/to/your/directory --include py,js --exclude test_
+or
+filefusion --path /path/to/your/directory --include py,js --exclude test_
 ```
 
 ## Command-line Options
