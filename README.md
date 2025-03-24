@@ -3,15 +3,15 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python Version](https://img.shields.io/badge/python-3.6%2B-brightgreen)
 
-FileFusion is a powerful file aggregation tool that combines multiple files from a directory into a single organized document. Perfect for code reviews, documentation, backups, or creating shareable code snapshots.
+FileFusion is a file aggregation tool that combines multiple files from a directory into a single organized document. Perfect for code reviews, documentation, backups, or creating shareable code snapshots.
 
 ## Features
 
 - **Multi-format Output**: Generate combined files in plain text, Markdown, or HTML formats
 - **Parallel Processing**: Efficiently process large directories using multi-threading
-- **Smart Filtering**: Include/exclude files by extension, size, or type
-- **Rich Metadata**: Capture and display file creation dates, sizes, and modification times
-- **Customizable Comments**: Choose between different comment styles
+- **Filtering**: Include/exclude files by extension, size, or type
+- **Metadata**: Capture and display file creation dates, sizes, and modification times
+- **Custom Comments**: Choose between different comment styles
 - **Deep Directory Traversal**: Recursively scan nested directory structures
 - **Binary File Handling**: Detect and optionally skip binary files
 - **Colorized Output**: Visual feedback with progress bars and color-coded terminal output
