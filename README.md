@@ -5,18 +5,6 @@
 
 FileFusion is a file aggregation tool that combines multiple files from a directory into a single organized document. Perfect for code reviews, documentation, backups, or creating shareable code snapshots.
 
-## Features
-
-- **Multi-format Output**: Generate combined files in plain text, Markdown, or HTML formats
-- **Parallel Processing**: Efficiently process large directories using multi-threading
-- **Filtering**: Include/exclude files by extension, size, or type
-- **Metadata**: Capture and display file creation dates, sizes, and modification times
-- **Custom Comments**: Choose between different comment styles
-- **Deep Directory Traversal**: Recursively scan nested directory structures
-- **Binary File Handling**: Detect and optionally skip binary files
-- **Colorized Output**: Visual feedback with progress bars and color-coded terminal output
-- **Memory Efficient**: Process large files in chunks to minimize memory usage
-
 ## Installation
 
 ```bash
@@ -80,6 +68,18 @@ filefusion --path /path/to/your/directory --include py,js --exclude test_
 - `--recursive` - Scan subdirectories recursively (default: True)
 - `--no-recursive` - Do not scan subdirectories
 - `--workers N` - Number of worker threads (default: CPU count \* 4, max 32)
+
+## Features
+
+- **Multi-format Output**: Generate combined files in plain text, Markdown, or HTML formats
+- **Parallel Processing**: Efficiently process large directories using multi-threading
+- **Filtering**: Include/exclude files by extension, size, or type
+- **Metadata**: Capture and display file creation dates, sizes, and modification times
+- **Custom Comments**: Choose between different comment styles
+- **Deep Directory Traversal**: Recursively scan nested directory structures
+- **Binary File Handling**: Detect and optionally skip binary files
+- **Colorized Output**: Visual feedback with progress bars and color-coded terminal output
+- **Memory Efficient**: Process large files in chunks to minimize memory usage
 
 ## Use Cases
 
